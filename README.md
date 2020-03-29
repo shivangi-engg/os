@@ -78,7 +78,7 @@ int main() {
             if (running[i]) {
                 exec = 1;
                 for (j = 0; j < r; j++) {
-                    if (max_claim[i][j] - curr[i][j] >= avl[j])//we did equal
+                    if (max_claim[i][j] - curr[i][j] > avl[j])//only greater
                     {
                         exec = 0;
                         break;
