@@ -51,7 +51,7 @@ int main() {
     }
  
     printf("\nThe Maximum Claim Table:\n");
-    for (i = 0; i < p+1; i++) //for max claim
+    for (i = 0; i < p; i++) 
     {
         for (j = 0; j < r; j++)
             printf("\t%d", max_claim[i][j]);
